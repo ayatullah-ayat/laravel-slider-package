@@ -1,0 +1,35 @@
+{
+    "name": "sahadat/slider",
+    "description": "creating a librariy to manage slider",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+
+    "authors": [
+        {
+            "name": "Md Sahadat Hossain",
+            "email": "sahdatsunny202146@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Ponditcommerce\\Slider\\": "src/"
+        }
+    },
+
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                ""
+            ]
+           
+        }
+    }
+
+
+    
+}
+
