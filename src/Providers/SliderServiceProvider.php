@@ -1,9 +1,7 @@
 <?php
-
 namespace Ponditcommerce\Slider\Providers;
 
 use Illuminate\Support\ServiceProvider;
-
 use Ponditcommerce\Slider\Slider;
 
 class SliderServiceProvider extends ServiceProvider
@@ -14,7 +12,7 @@ class SliderServiceProvider extends ServiceProvider
         // $this->app->bind('slider', function ($app) {
         //     return new Slider();
         // });
-        $this->app->bind('slider', \Ponditcommerce\Slider\Slider::class);
+        $this->app->bind('Slider', \Ponditcommerce\Slider\Slider::class);
     }
 
     public function boot()
