@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ponditcommerce\\Providers\\SliderServiceProvider"
+                "Ponditcommerce\\Slider\\Providers\\SliderServiceProvider"
             ]
         }
     }
