@@ -12,7 +12,7 @@ class SliderServiceProvider extends ServiceProvider
         // $this->app->bind('slider', function ($app) {
         //     return new Slider();
         // });
-        $this->app->bind('Slider', \Ponditcommerce\Slider\Slider::class);
+        $this->app->bind('slider', \Ponditcommerce\Slider\Slider::class);
     }
 
     public function boot()
